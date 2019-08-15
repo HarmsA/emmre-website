@@ -50,7 +50,7 @@
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
-                  <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+                  <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -112,8 +112,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="785" />
-    <option name="y" value="222" />
+    <option name="x" value="1023" />
+    <option name="y" value="245" />
     <option name="width" value="1440" />
     <option name="height" value="773" />
   </component>
@@ -191,10 +191,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4196000" />
+    <option name="totallyTimeSpent" value="4276000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="628" y="178" width="1152" height="618" extended-state="0" />
+    <frame x="819" y="196" width="1152" height="618" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08500914" />
@@ -288,7 +288,7 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
