@@ -1,0 +1,411 @@
+*{
+    /*border: 1px solid red;*/
+}
+body {
+    max-width: 1440px;
+    min-width: 1400px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0;
+}
+.twentyeight_font{
+    color: #141414;
+    font-family: Montserrat, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+}
+.sixteen_font {
+    color: #595959;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* Nav bar*/
+.lt a {
+    text-decoration: none;
+    color: #1d1d1d;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#emmreLogo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+}
+.rt {
+    padding-left: 25px;
+    margin: 0;
+}
+.lt {
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+}
+.lt a {
+    padding:  2px 36px 0 0;
+    text-transform: uppercase;
+}
+.lt a:last-of-type {
+    width: 94px;
+    height: 30px;
+    border-radius: 17px;
+    background-color: #ff7878;
+    margin-right: 36px;
+    text-align: center;
+    padding: 4px 0 6px 0;
+    color: white;
+    font-size: 14px;
+}
+
+#headinglogo {
+    padding: 28px 0 24px 12px;
+    margin: 0;
+
+}
+/* Blue banner area */
+.phoneContainer {
+    position: relative;
+}
+.phoneContainer .phone {
+    /* Style for "iphone1" */
+    position: absolute;
+    left: 250px;
+    top: 33px;
+}
+.phoneContainer .phoneback {
+    /* Style for "iphone1" */
+    position: absolute;
+    left: 130px;
+    top: 55px;
+}
+.bluetext {
+    position: absolute;
+    left: 676px;
+    top: 178px;
+    width: 482px;
+}
+.bluetext h1 {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+.bluetext p {
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 471px;
+}
+#beta, #updates {
+    /*width: 234px;*/
+    height: 36px;
+    border-radius: 17px;
+    background-color: #6b3fb2;
+    padding: 10px 22px;
+    margin-right: 20px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#updates {
+    padding: 10px 25px;
+    background-color: #10bf31;
+}
+
+/* Communicate, Organize, and Prioritize */
+.threePhones h1 {
+    color: #1d1d1d;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 120px;
+}
+.purplebanner {
+    padding-top: 110px;
+    position: absolute;
+}
+#phonelft {
+    position: relative;
+    top: 20px;
+    left: 250px;
+}
+#phonemdl{
+    position: relative;
+    top:20px;
+    left: 330px;
+}
+#phonert {
+    position: relative;
+    top: 20px;
+    left: 410px;
+}
+.reasonsContainer ul{
+    padding-left: 240px;
+
+}
+/* discription reasons under 3 phones */
+.reasonsContainer ul li {
+    vertical-align: top;
+    width: 275px;
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 70px;
+}
+.moreDone, .peace, .fallsThrough {
+    padding-top: 50px;
+    text-align: center;
+
+}
+.peace, .moreDone {
+    padding-top: 65px;
+}
+.reasonsContainer h1{
+    text-align: center;
+    color: #141414;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bluebata {
+    text-align: center;
+    padding: 20px;
+}
+.betaBlue {
+    height: 36px;
+    border-radius: 17px;
+    background-color: #1a8dff;
+    padding: 10px 22px;
+    margin-right: 20px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.desktopText h1{
+    margin-top: 50px;
+    text-align: center;
+    color: #141414;
+    font-family: Montserrat, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+.desktoptextContainer{
+    position: relative;
+    margin-left: 440px;
+    top: -800px;
+    width: 555px;
+    text-align: center;
+}
+.desktop{
+    left: -440px;
+    top: -50px;
+    z-index: -1;
+}
+.testimonies {
+    display: block;
+    margin-top: -175px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    z-index: 1;
+}
+.testimony2, .testimony1{
+    width: 50%;
+    float: left;
+    text-align: center;
+    align-content: center;
+    padding-bottom: 30px;
+}
+.testimony1{
+    border-right: 3px solid #e1e1e1;
+}
+.testimony1 img, .testimony2 img{
+    padding-bottom: 15px;
+}
+.testimony1 p:first-of-type, .testimony2 p:first-of-type{
+
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.testimony1reference, .testimony2reference {
+    color: #646464;
+    font-family: Montserra, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    width: 350px;
+    margin: 0 auto;
+}
+.company {
+    padding-bottom: 20px;
+}
+.usContainer{
+    height: 300px;
+}
+.us {
+    background-color: white;
+    position: relative;
+    top: -180px;
+    left: 0;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    padding: 10px 35px 5px 35px;
+}
+.us h1 {
+    color: #141414;
+    font-family: Montserrat sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.us p{
+    padding-bottom: 15px;
+}
+.us a{
+    color: #ffffff;
+    font-family: Montserrat sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    width: 150px;
+    height: 30px;
+    padding: 8px 15px;
+    border-radius: 17px;
+    background-color: #1a8dff;
+}
+.bottomflexcontainer{
+    display: inline-block;
+    width: 100%;
+    margin-top: 600px;
+}
+
+.firstpurple{
+    display: flex;
+    width: 100%;
+}
+.firstrt{
+    display: flex;
+    background-color: #6b3fb2;
+    padding: 20px 50px 0 10px;
+}
+.firstrt img:first-child{
+    padding-left: 20px;
+    margin: 50px 0px -90px 20px;
+}
+.firstrt img:last-child{
+    padding-left: 10px;
+    margin: 50px 120px -90px 10px;
+}
+.firstleft {
+    width: 55%;
+    text-align: center;
+    margin-top: 10%;
+}
+.firstleft h1, .firstleft p{
+    width: 60%;
+    text-align: left;
+    margin: 0 40px 0 auto;
+}
+
+
+.secondpurple{
+    padding-top: 120px;
+    display: flex;
+    width: 100%;
+}
+.secondrt {
+    width: 55%;
+    text-align: left;
+    margin-top: 10%;
+}
+.secondrt h1, .secondrt p{
+    width: 70%;
+    margin: 0 auto 0 50px;
+}
+.secondleft{
+    display: flex;
+    background-color: #6b3fb2;
+    padding: 20px 50px 0 10px;
+}
+.secondleft img:first-child{
+    margin: 50px 10px -90px 120px;
+}
+.secondleft img:last-child{
+    margin: 50px 0 -90px 0;
+}
+.firstleft p, .secondrt p{
+    padding-top: 10px;
+}
+.managementsuit{
+    text-align: center;
+    width: 650px;
+    margin: 100px auto 20px auto;
+}
+.managementsuit ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.managementsuit ul li{
+    float: left;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    background-color: #454545;
+    width: 100%;
+}
+footer h1{
+    padding-top: 30px;
+    color: #10bf31;
+    font-family: Montserrat, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+footer p:first-of-type {
+    width: 600px;
+    margin: 0 auto;
+    color: #e1e1e1;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+footer p:last-of-type{
+    padding-bottom: 20px;
+    width: 600px;
+    margin: 0 auto;
+    color: #a2a2a2;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+footer ul{
+    padding: 10px;
+    display: inline-block;
+    list-style-type: none;
+}
+footer ul li{
+    float: left;
+    padding: 20px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+}
